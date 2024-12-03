@@ -1,42 +1,31 @@
-<h1>tauri-pure-admin</h1>
+<h1>tauri-template</h1>
 
-**中文** | [English](./README.en-US.md)
-
-- [tauri-pure-admin](https://github.com/xiaoxian521/tauri-pure-admin) 是在 [pure-admin-thin](https://github.com/xiaoxian521/pure-admin-thin) 的基础上开发
-- 当然平台还提供 `electron` 版本的 [electron-pure-admin](https://github.com/xiaoxian521/electron-pure-admin)
-
-<p align="center">
-  <img alt="electron" width="100%" src="https://xiaoxian521.github.io/hyperlink/img/tauri-pure-admin/1.jpg">
-</p>
-
+###  基于tauri 2.0+rust+vue3 封装的模板
+后续开发桌面端应用可直接在该模板的基础上进行开发
+#### 在 [pure-admin](https://pure-admin.github.io/vue-pure-admin/#/login)上进行的修改，感谢原框架作者
 ### 安装依赖
 
 ```sh
-pnpm install
+pnpm i
 ```
 
 ### 启动
 
 ```sh
 # 桌面端
-pnpm dev
+ pnpm tauri dev
 ```
 
 ```sh
 # 浏览器端
-pnpm browser:dev
+pnpm dev
 ```
 
 ### 打包
 
 ```sh
 # 桌面端
-pnpm build
-```
-
-```sh
-# 浏览器端
-pnpm browser:build
+ pnpm tauri build
 ```
 
 ### 图标生成
